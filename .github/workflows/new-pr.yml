@@ -6,7 +6,7 @@ on:
 
 jobs:
   ci:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest 
     env:
       API_URL: "https://ctf.catch-the-frog.com"
     
