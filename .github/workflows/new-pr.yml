@@ -30,7 +30,7 @@ jobs:
         URL: ${{env.API_URL}}
         USER: ${{ secrets.USER }}
         PW: ${{ secrets.USER_CRED }}
-      run: |
+      run: | 
         echo "Send run log"
         curl --connect-timeout 2 -sSf -k -u "$USER:$PW" $URL/api/run/audit
         
